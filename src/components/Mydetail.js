@@ -15,9 +15,11 @@ function Mydetail() {
             <p className='title'>Intresting: </p>
             <p>Netflix, Listing music, Reading, Coffees</p><br/>
             <p className='title'>My carrer:</p>
-            <p>・Police officer in Tokyo</p>
-            <p>・Web contents Writer in Australia and Philipiness</p>
-            <p>・Call center in Tokyo</p><br/>
+            <p>・Police officer in Tokyo : 5years</p>
+            <p>・Web contents Writer in Australia and Philipiness : 2 years</p>
+            <p>・Call center in Tokyo : 5 months</p><br/>
+            <p className='title'>My carrer:</p>
+            <p>Speaking: Japanese, English, Korean</p><br />
             <p className='title'>Programming Languages</p>
             <p>HTML: ★★★★☆</p>
             <p>CSS: ★★★☆☆</p>
@@ -31,7 +33,7 @@ function Mydetail() {
         </div>
 
 <section className='myImage'>
-<img className= 'top_img' src={'images/img-me2.jpg'} alt='me' />
+<img className= 'top_img' src={'https://yuiotaka.github.io/yue/images/img-me2.jpg'} alt='me' />
 </section>
 
 <div className='tell__myDetail'>

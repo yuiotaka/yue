@@ -1,0 +1,79 @@
+.ausPic{
+    height: 300px;
+    width: 400px;
+}
+.write{
+    padding: 4rem;
+    background:#fff;
+}
+
+.write__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+}
+.write__wrappper{
+    
+    margin: 50px 0 45px;
+}
+.write__Items{
+    margin-bottom: 24px;
+    display:flex;
+    float: left;
+    
+}
+.write__item__info{
+    padding: 20px 30px 30px;
+    position: relative;
+   
+}
+
+.write__item__text{
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+    
+.write__detail .detail{
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #252e48;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.phLink{
+    font-size: large;
+    color: rgb(22, 22, 110);
+    border: 0mm;
+}
+.auLink{
+  font-size: large;
+  color: rgb(22, 22, 110);
+  border: 0mm;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }

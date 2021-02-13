@@ -1,5 +1,5 @@
 .top_img{
-
+    padding: auto;
     margin-top:-600px;
     height: 50%;
     width: 50%;
@@ -17,3 +17,28 @@
      display: inline-block;
      
  }
+ .plofile{
+    margin-left: 600px;
+ }
+
+ .cards__container{
+     padding: 20px;
+ }
+
+ @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }

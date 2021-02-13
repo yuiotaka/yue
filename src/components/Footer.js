@@ -56,10 +56,10 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
+           <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/"> Facebook</a>
          
-            <Link to='/'>Twitter</Link>
+           <a href ="https://twitter.com/home">Twitter</a>
           </div>
         </div>
       </div>
@@ -68,44 +68,23 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Yui Otaka
-              <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>yuiotaka Ã‚Â© 2021</small>
+          <small class='website-rights'>yuiotaka© 2021</small>
           <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='https://www.facebook.com/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-         
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='https://www.linkedin.com/in/yui-otaka-350185173/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
+           
+               <a className= "social-logo" href="https://www.facebook.com/">
+              <i class='fab fa-facebook-f' /></a>
+            
+              <a className= "social-logo" href="https://www.instagram.com/">
+              <i class='fab fa-instagram' /></a>
+            
+              <a className= "social-logo" href ="https://twitter.com/home">
+              <i class='fab fa-twitter' /></a>
+           
+              <a className= "social-logo" href ="https://www.linkedin.com/in/yui-otaka-350185173/">
+              <i class='fab fa-linkedin' /></a>
+            
           </div>
         </div>
       </section>
